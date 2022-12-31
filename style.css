@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding: 16px;
+    width: 100%;
+}
+section header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 50px;
+}
+.announcment {
+    color: #191919;
+    background: #FFFFFF;
+    text-align: center;
+    z-index: 5;
+}
+.announcment a{
+    color: #191919;
+}
+
+main>section{
+    height: 100vh;
+}
+section#first-page {
+    background:url('./imgs/Model-3-Main-Hero.jpg') ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav {
+    display: inline-block;
+}
+header nav#main-nav {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+header img {
+    height: 24px;
+    width: 120px;
+    margin-left: 32px;
+    padding-top: 0px;
+}
+
+header nav#secondary-nav{
+    position: absolute;
+    text-align: end;
+    right: 3vw;
+}
+nav ul{
+    display: inline;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 16px;
+}
+#first-page h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+#first-page>a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+}
+#first-page footer {
+    position: absolute;
+    color: #FFFFFF;
+    width: 764px;
+    height: 54px;
+    bottom: 26px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+#first-page footer>div {
+    display: inline-block;
+    width: 24%;
+}
+#first-page footer div.upper-part {
+    font-size: 28px;
+    text-align: center;
+}
+#first-page footer div.second-part {
+    font-size: 12px;
+    text-align: center;
+}
+.primary-button {
+    padding: 4px 48px;
+    background-color: transparent;
+    height: 40px;
+    width: 204px;
+    position: absolute;
+    top: 0;
+    border: white 3px solid;
+    border-radius: 3px;
+    color: white;
+}
+.primary-button:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+.chat {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    border: none;
+    box-shadow: 0 0 5px #191919;
+    z-index: 4;
+}
+.chat img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#second-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./imgs/model-3-hero-a.jpg');
+    background-size: 80vw ;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#second-page .content {
+    width: 336px;
+    position: absolute;
+    right: 0;
+    padding: 32px 40px;
+    margin: 20px;
+    color: #191919;
+}
+#second-page .content h2 {
+    font-size: 19px;
+    padding-top: 16px;
+}
+#second-page .content h3 {
+    font-size: 30px;
+    padding-top: 4px;
+    padding-bottom: 24px;
+}
+#second-page .content p {
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 24px;
+}
+#second-page .content h4 {
+    font-size: 16px;
+}
+#second-page .content p a{
+    color: #191919;
+}
+button.round {
+    border-radius: 50%;
+    background-color: white; 
+}
+button.round:hover{
+    background-color: black;  
+
+}
+#second-page footer {
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 26px;
+    right: 26px;
+}
+#second-page button.primary {
+    padding: 4px 48px;
+    background-color: transparent;
+    height: 40px;
+    width: 204px;
+    border: black 3px solid;
+    border-radius: 3px;
+    color: black;
+}
+#second-page button.primary:hover  {
+    background: #000;
+    color: #FFFFFF;
+}
+#second-page footer>* {
+    display: inline-block;
+    margin: 10px;
+}
+#second-page footer a {
+    text-decoration: none;
+    color: #191919;
+}
+#third-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./imgs/Model-3-Performance.jpg');
+    background-size: 100vw ;
+    background-position: 0 -180px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#third-page .main{
+    position: absolute;
+    color: #FFFFFF;
+    width: 764px;
+    height: 90px;
+    bottom: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+#third-page .main>div {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+#third-page .main div.upper-part {
+    font-size: 28px;
+    text-align: center;
+}
+#third-page .main div.second-part {
+    font-size: 12px;
+    text-align: center;
+}
+#third-page>footer {
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+}
+#third-page>footer>* {
+    display: inline-block;
+}
+#third-page footer section {
+    width: 40%;
+    padding-left: 200px;
+}
+#third-page footer p {
+    width: 50%;
+    padding-right: 200px;
+    margin-bottom: 32px;
+    text-align: justify;
+}
+#third-page button.primary {
+    padding: 4px 48px;
+    background-color: transparent;
+    height: 40px;
+    width: 204px;
+    border: black 3px solid;
+    border-radius: 3px;
+    color: black;
+}
+#third-page button.primary:hover  {
+    background: #000;
+    color: #FFFFFF;
+}
+#third-page footer footer>* {
+    display: inline-block;
+    margin: 10px;
+}
+#third-page footer footer a {
+    text-decoration: none;
+    color: #191919;
+}
+#third-page footer h2{
+    font-size: 19px;
+    padding-bottom: 4px;
+    font-weight: 100;
+}
+#third-page footer h3{
+    font-size: 30px;
+}
+#third-page footer a{
+    color: #191919;
+}
