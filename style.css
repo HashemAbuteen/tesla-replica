@@ -219,7 +219,7 @@ button.round:hover{
     height: 100vh;
     background-image: url('./imgs/Model-3-Performance.jpg');
     background-size: 100vw ;
-    background-position: 0 -180px;
+    background-position: 0 -320px;
     background-repeat: no-repeat;
     position: relative;
 }
