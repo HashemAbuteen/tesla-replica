@@ -137,6 +137,15 @@ header nav a {
     font-size: 12px;
     text-align: center;
 }
+#first-page .see-more {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
 .primary-button {
     padding: 4px 48px;
     background-color: transparent;
