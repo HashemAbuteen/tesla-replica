@@ -7,6 +7,42 @@ button {
     cursor: pointer;
 }
 
+nav.side-nav {
+    position: fixed;
+    left: 13px;
+    width: 24px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 4;
+}
+nav.side-nav a{
+    margin-bottom: 5px;
+    display: block;
+    cursor: pointer;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav.side-nav a div {
+    border: white solid 1px;
+    background-color: white;
+    width: 3px;
+    height: 24px;
+}
+nav.side-nav a:hover::after {
+    content: attr(data-name);
+    position: absolute;
+    white-space: nowrap;
+    left: 15px;
+    color: #fff;
+    
+}
+
+
 header{
     position: sticky;
     top: 0;
@@ -62,7 +98,7 @@ nav ul{
 nav ul li{
     display: inline;
 }
-nav a {
+header nav a {
     color: white;
     text-decoration: none;
     padding: 0 16px;
@@ -209,7 +245,6 @@ button.round:hover{
     color: #191919;
 }
 #third-page {
-    width: 100vw;
     height: 100vh;
     background-image: url('./imgs/Model-3-Performance.jpg');
     background-size: 100vw ;
